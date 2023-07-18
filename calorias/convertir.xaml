@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="calorias.convertir"
+             NavigationPage.HasNavigationBar="False">
+
+    <Grid BackgroundColor="#82E0AA">
+        <StackLayout VerticalOptions="Center"
+                     Margin="30,-20"
+                     Spacing="15">
+            <Image Source="peso.png"
+                   />
+            <Frame
+                CornerRadius="10">
+                <Entry Keyboard="Numeric"
+                       Placeholder="Peso (kg)"
+                       TextColor="Black"
+                       PlaceholderColor="Black"
+                       FontSize="Large"
+                       x:Name="txtpeso"/>
+            </Frame>
+            <Frame
+                CornerRadius="10">
+                <Entry Keyboard="Numeric"
+                       Placeholder="Estatura (cm)"
+                       TextColor="Black"
+                       PlaceholderColor="Black"
+                       FontSize="Large"
+                       x:Name="txttalla"/>
+            </Frame>
+            <Frame
+                CornerRadius="10">
+                <Entry Keyboard="Numeric"
+                       Placeholder="Edad"
+                       TextColor="Black"
+                       PlaceholderColor="Black"
+                       FontSize="Large"
+                       x:Name="txtedad"/>
+            </Frame>
+            <Button
+                Text="CALCULAR"
+                FontSize="20"
+                CornerRadius="20"
+                FontAttributes="Bold"
+                Margin="100,1,100,40"
+                TextTransform="None"
+                x:Name="btncalcular"
+                Clicked="btncalcular_Clicked"
+                BorderColor="Azure"
+                BorderWidth="2"/>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Resultado:"
+                       FontSize="30"
+                       TextColor="Black"/>
+                <Label Text="0.00"
+                       FontSize="30"
+                       TextColor="Black"
+                       x:Name="lblresultado"/>
+            </StackLayout>
+            <Button Text="INICIO"
+                    FontSize="20"
+                    FontAttributes="Bold"
+                    Margin="120,20,120,40"
+                    TextTransform="None"
+                    CornerRadius="20"
+                    BackgroundColor="Green"
+                    HorizontalOptions="Center"
+                    x:Name="btnvolver"
+                    Clicked="btnvolver_Clicked"
+                    BorderColor="Azure"
+                    BorderWidth="2"/>
+        </StackLayout>
+    </Grid>
+</ContentPage>
