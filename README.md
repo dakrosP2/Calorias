@@ -16,6 +16,7 @@ Construcción de un aplocativo en Visual Studio en Xamarin.
 
 ![Screenshot_2023-07-18-07-44-02-282_com companyname conversor](https://github.com/dakrosP2/Calorias/assets/133244354/f7a910cf-2c16-4293-ab2e-5d0948450c1f)
 ![Screenshot_2023-07-18-07-43-57-695_com companyname conversor](https://github.com/dakrosP2/Calorias/assets/133244354/3362519b-d4bf-47f2-b81f-5a541d64d8d8)
+![Diagrama de flujo](https://github.com/dakrosP2/Calorias/assets/133244354/2a2b8eaa-4530-4c52-9d00-362aa9d6c98d)
 
 
 CÓDIGO DEL PROYECTO
